@@ -25,3 +25,19 @@ div {
   max-height: fit-content;
   max-width: fit-content;
 }
+
+body {
+  border: #eb984e;
+  border-style: solid;
+  border-width: 20px;
+}
+
+img {
+  border-radius: 50%;
+  border: #eb984e;
+  border-style: solid;
+}
+
+#contactdetails {
+  background-color: white;
+}
