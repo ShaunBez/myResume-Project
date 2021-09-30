@@ -29,7 +29,8 @@ div {
 body {
   border: #eb984e;
   border-style: solid;
-  border-width: 20px;
+  border-width: 15px;
+  padding: 10px;
 }
 
 img {
@@ -38,6 +39,6 @@ img {
   border-style: solid;
 }
 
-#contactdetails {
-  background-color: white;
+#contactDetails {
+  color: white;
 }
