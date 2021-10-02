@@ -8,6 +8,8 @@ header {
   text-align: center;
   font-family: garamond;
   font-size: 150%;
+  background-color: #001337;
+  color: white;
 }
 
 footer {
@@ -15,13 +17,8 @@ footer {
   text-align: center;
 }
 
-header {
-  background-color: #001337;
-  color: white;
-}
-
-div {
-  background-color: #2ecc71;
+.menu {
+  background-color: #2cc1aa;
   max-height: fit-content;
   max-width: fit-content;
 }
@@ -41,4 +38,8 @@ img {
 
 #contactDetails {
   color: white;
+}
+
+article {
+  margin: 30px;
 }
