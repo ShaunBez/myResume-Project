@@ -15,6 +15,7 @@ header {
 footer {
   background-color: #001337;
   text-align: center;
+  height: auto;
 }
 
 .menu {
@@ -32,8 +33,7 @@ body {
 
 img {
   border-radius: 50%;
-  border: #eb984e;
-  border-style: solid;
+  padding: 10px;
 }
 
 #contactDetails {
