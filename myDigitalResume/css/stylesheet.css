@@ -20,8 +20,10 @@ footer {
 
 .menu {
   background-color: #2cc1aa;
-  max-height: fit-content;
-  max-width: fit-content;
+  min-height: 900px;
+  margin-right: 50px;
+  float: left;
+  width: 350px;
 }
 
 body {
@@ -29,10 +31,11 @@ body {
   border-style: solid;
   border-width: 15px;
   padding: 10px;
+  position: absolute;
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 10px;
 }
 
@@ -42,4 +45,26 @@ img {
 
 article {
   margin: 30px;
+}
+
+header h1,
+section p,
+footer p {
+  margin: 0;
+}
+
+header,
+footer,
+section {
+  overflow: auto;
+}
+
+header,
+footer,
+section {
+  padding: 0px;
+}
+
+#Menu {
+  margin: 40px;
 }
