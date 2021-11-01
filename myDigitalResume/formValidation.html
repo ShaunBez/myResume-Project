@@ -14,56 +14,70 @@
     <form action="form" method="get" class="form-example">
         <div class="form-example">
             <label for="userId">User id:</label>
-            <input type="text" name="userId" id="userId" required>
+            <input type="text" name="userId" id="userId" placeholder="Required, length of 5 to 12 characters" minlength="5" maxlength="12" required>
         </div>
 
         <div class="form-example">
             <label for="password">Password:</label>
-            <input type="text" name="password" id="password" required>
+            <input type="text" name="password" id="password" placeholder="Required, lengthof 7 to 12 characters" minlength="7" maxlength="12" required>
         </div>
 
         <div class="form-example">
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required>
+            <input type="text" name="name" id="name" placeholder="Required, letters only" required>
         </div>
 
         <div class="form-example">
             <label for="add">Address:</label>
-            <input type="text" name="add" id="add" required>
+            <textarea class="textarea" placeholder="Optional"></textarea>
         </div>
 
         <div class="form-example">
             <label for="country">Country:</label>
-            <input type="text" name="country" id="country" required>
+
+            <select name="country" id="country">
+                <option value="southAfrica">South Africa</option>
+                <option value="ireland">Ireland</option>
+                <option value="netherlands">Netherlands</option>
+                <option value="england">England</option>
+                <option value="iceland">Iceland</option>
+                <option value="russia">Russia</option>
+            </select>
         </div>
 
         <div class="form-example">
             <label for="zCode">ZIP Code:</label>
-            <input type="text" name="zCode" id="zCode" required>
+            <input type="text" name="zCode" id="zCode" placeholder="Required, Numeric only" required>
         </div>
 
         <div class="form-example">
             <label for="mail">Email:</label>
-            <input type="text" name="mail" id="mail" required>
+            <input type="text" name="mail" id="mail" placeholder="Required, valid email address only" required>
         </div>
 
         <div class="form-example">
             <label for="sex">Sex:</label>
-            <input type="radio" name="sex" id="sex" required>
+            <input type="radio" name="sex" class="input" id="sex" required>
+            <label for="male">Male</label>
+            <input type="radio" name="sex" class="input" id="sex" required>
+            <label for="female">Female</label>
         </div>
 
         <div class="form-example">
             <label for="language">Language:</label>
-            <input type="button" name="language" id="language" required>
+            <input type="radio" name="language" class="input" id="language" required>
+            <label for="english">English</label>
+            <input type="radio" name="language" class="input" id="language" required>
+            <label for="nonEnglish">Non-English</label>
+        </div>
+
+        <div class="input_field">
+            <label>About</label>
+            <textarea class="textarea" placeholder="Write something...(optional)"></textarea>
         </div>
 
         <div class="form-example">
-            <label for="about">About:</label>
-            <input type="text" name="about" id="about" required>
-        </div>
-
-        <div class="form-example">
-            <input type="submit" vale="Submit">
+            <input type="submit" value="Submit" class="btn">
         </div>
 
         </form>
