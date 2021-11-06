@@ -3,7 +3,6 @@ body {
   font-size: 110%;
   background-color: #fcf7f8;
 }
-
 header {
   text-align: center;
   font-family: garamond;
@@ -11,13 +10,11 @@ header {
   background-color: #001337;
   color: white;
 }
-
 footer {
   background-color: #001337;
   text-align: center;
   height: auto;
 }
-
 .menu {
   background-color: #2cc1aa;
   min-height: 900px;
@@ -25,7 +22,6 @@ footer {
   float: left;
   width: 350px;
 }
-
 body {
   border: #eb984e;
   border-style: solid;
@@ -33,38 +29,31 @@ body {
   padding: 10px;
   position: absolute;
 }
-
 img {
   border-radius: 100%;
   padding: 10px;
 }
-
 #contactDetails {
   color: white;
 }
-
 article {
   margin: 30px;
 }
-
 header h1,
 section p,
 footer p {
   margin: 0;
 }
-
 header,
 footer,
 section {
   overflow: auto;
 }
-
 header,
 footer,
 section {
   padding: 0px;
 }
-
 #Menu {
   margin: 40px;
 }
@@ -96,3 +85,28 @@ section {
     left: -10%;
   }
 }
+
+/*  Testing CSS Media Queries
+ @media only screen and (min-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: orange;
+  }
+} */
