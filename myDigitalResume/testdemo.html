@@ -11,14 +11,47 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      
+
     <h1>Hello, world!</h1>
 
     <header id="pageHeader">Header</header>
     <article id="mainArticle">Article</article>
-    <nav id="mainNav">Nav</nav>
-    <div id="siteAds">Ads</div>
-    <footer id="pageFooter">Footer</footer>
+
+    <nav id="mainNav">Menu</nav>
+    <nav>
+        <p>
+            <ul style="list-style-type: none;">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </p>
+    </nav>
+
+
+    <footer id="pageFooter">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <h2 id="contactDetails">Contact Details</h2>
+            <a class="btn" href="https://twitter.com/MRxVIKING" target="_blank"> <img src="images/Twitter.png" alt="Twitter Social link"></a>
+            <a class="btn" href="https://www.instagram.com/" target="_blank"> <img src="images/Instagram.png" alt="Instagram Social Link"></a>
+            <a class="btn" href="https://www.linkedin.com/in/shaun-bezuidenhout-0a6a31131/" target="_blank"> <img src="images/LinkedIn.png" alt="LinkedIn Social Link">
+    </footer>
     
   </body>
 </html>
